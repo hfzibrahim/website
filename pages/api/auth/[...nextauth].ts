@@ -12,9 +12,8 @@ export default authHandler;
 const options = {
   providers: [
     Providers.Google({
-      clientId:
-        "523952187411-gqqccct3drai83e6889s9j8jqjfvgodn.apps.googleusercontent.com",
-      clientSecret: "Ze8nsARtC1_v5bt5Gl-ieLdu",
+      clientId: process.env.GOOGLE_ID,
+      clientSecret: process.env.GOOGLE_SECRET,
     }),
   ],
   adapter: Adapters.Prisma.Adapter({ prisma }),
