@@ -4,8 +4,8 @@
   "description": "",
   "scripts": {
     "dev": "next",
-    "build": "cross-env NEXTAUTH_URL=http://localhost:3000/api/auth next build",
-    "start": "cross-env NEXTAUTH_URL=http://localhost:3000/api/auth next start"
+    "build": "next build",
+    "start": " next start"
   },
   "keywords": [],
   "author": "",
