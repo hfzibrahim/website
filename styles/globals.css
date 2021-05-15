@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* background-image: url("/bg.png"); */
+  background-position: top;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-color: beige;
+}
+
+.prose-lg p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
